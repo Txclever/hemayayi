@@ -1,0 +1,81 @@
+*{
+    padding:0px;
+    margin:0px;
+    /* 消除边距 */
+}
+.header{
+    width: 100px;
+    /* 宽100像素 */
+    height: 80px;
+    /* 高80像素 */
+}
+.first{
+    width: 70%;
+    height: 80px;
+    margin: 0 auto;
+    /* 居中 */
+}
+header .first .second{
+    float: left;
+    /* 左浮 */
+    margin-top: 14px; 
+    /* 设置元素的上内边距（空间 */
+}
+header .first .second img{
+    width: 115px;
+    height: 52px;
+    /* 高52像素 */
+} 
+header .first .third{
+    float: right;
+    /* 右浮 */
+}
+header .first .third a{
+    color: #409ad6;
+    /* 颜色 */
+    text-decoration: none;
+    /* 取消下划线 */
+    margin-right: 20px;
+    /* 右边距 */
+    line-height: 80px;
+    /* 行高80像素 */
+}
+header .first .third a img{
+    margin-right: 5px;
+    /* 右边距5像素 */
+    vertical-align: middle;
+    /* 垂直居中 */
+}
+article section img {
+    width: 100%;
+    vertical-align: top;
+    /* 垂直对齐文本顶部 */
+}
+footer {
+    width :100%;
+    height: 30px;
+    /* 高30像素 */
+    background: #346699
+    /* 背景颜色 */
+}
+footer p {
+    color:#fff;
+    text-align: right;
+    /* 向右居中 */
+    margin-right:19%;
+    /* 右边距 */
+    line-height: 30px;
+    /* 行高 */
+}
+footer p span {
+    margin-right: 5px;
+    /* 右边距 */
+    font-size: 14px;
+    /* 字体大小 */
+}
+footer p a {
+    text-decoration: none;
+    /* 取消下划线 */
+    color:#fff;
+    /* 颜色 */
+}

@@ -1,0 +1,119 @@
+*{
+    padding:0px;
+    margin:0px;
+    /* 消除边距 */
+}
+.header{
+    width: 100px;
+    /* 宽100像素 */
+    height: 80px;
+    /* 高80像素 */
+}
+.first{
+    width: 70%;
+    height: 80px;
+    margin: 0 auto;
+    /* 居中 */
+}
+header .first .second{
+    float: left;
+    /* 左浮 */
+    margin-top: 14px; 
+    /* 设置元素的上内边距（空间 */
+}
+header .first .second img{
+    width: 115px;
+    height: 52px;
+    /* 高52像素 */
+} 
+header .first .third{
+    float: right;
+    /* 向右浮动 */
+}
+header .first .third a{
+    color: #409ad6;
+    /* 颜色 */
+    text-decoration: none;
+    /* 去掉下横线 */
+    margin-right: 20px;
+    /* 设置元素右边框 */
+    line-height: 80px;
+    /* 属性设置行间的距离(行高） */
+}
+header .first .third a img{
+    margin-right: 5px;
+    vertical-align: middle;
+}
+article img{
+    width:100%;
+}
+.fourth{
+    width: 60%;  
+    height: 302px;
+    padding: 71px;
+    text-align: center;
+    /* 居中 */
+    margin: 0 auto; 
+    color: #666;
+}
+.fourth h3{
+    font-weight: 500;
+    /* 设置文本粗细 */
+    line-height: 1.1;
+    /* 属性设置行间的距离（行高） */
+    font-size: 24px;
+    /* 字体的大小 */
+    color: #333;
+}
+.fourth-one{
+    font-size: 18px;
+    padding: 8px 0;
+}
+.fourth-two .fourth-three h3{
+    margin-bottom:30px;
+    text-align: center;
+    /* 居中 */
+    font-weight: 500;
+    font-size: 24px;
+    color: #333;
+}
+.fourth-two .fourth-four img {
+    margin-left:227px;
+    /* 属性设置元素的左边距 */
+    margin-bottom:40px;
+    /* 属性设置元素的下边距 */
+    width:70%
+}
+.fourth-five img{
+    width:100%;
+    vertical-align: top;  
+    /* 向上垂直对齐 */
+}
+footer {
+    width :100%;
+    height: 30px;
+    background: #346699
+    /* 背景颜色 */
+}
+footer p {
+    color:#fff;
+    /* 颜色 */
+    text-align: right;
+    /* 向右居中 */
+    margin-right:19%;
+    /* 右边距 */
+    line-height: 30px;
+    /* 行高 */
+}
+footer p span {
+    margin-right: 5px;
+    /* 右边距 */
+    font-size: 14px;
+    /* 字体大小 */
+}
+footer p a {
+    text-decoration: none;
+    /* 消除下划线 */
+    color:#fff;
+    /* 颜色 */
+}
